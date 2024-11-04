@@ -168,18 +168,9 @@ div.video>iframe {
     height: 90%;
 }
 
-
 a.externo::after {
     content: "\1F517";
 
-}
-
-footer {
-    text-align: center;
-    position: relative;
-    /* Para o botão ser posicionado em relação ao footer */
-    padding: 10px;
-    color: white;
 }
 
 aside>ul {
@@ -222,6 +213,14 @@ aside {
     /* Começa invisível */
     transition: 0.5s;
     /* Transição suave */
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    /* Para o botão ser posicionado em relação ao footer */
+    padding: 10px;
+    color: white;
 }
 
 footer:hover #botao_topo {
